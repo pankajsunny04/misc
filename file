@@ -1,0 +1,41 @@
+What is the deployment strategy for the application on AKS?
+
+Will you be using Helm charts, Kubernetes manifests, or any other tools?
+
+How will the application handle scaling? Are there any auto-scaling configurations in place?
+
+Will there be multiple replicas of the application pods for high availability?
+
+What strategies will be used for updating the application (e.g., rolling updates, canary deployments)?
+
+How will liveness and readiness probes be configured for the application pods?
+
+What endpoints or checks will be used for these probes?
+
+What is the expected growth rate of compute and storage requirements?
+
+How will EFS be integrated with the AKS cluster?
+
+Will you use CSI drivers for EFS, and if so, how will they be configured?
+
+Will you be using the Amazon EFS CSI driver for integration?
+
+What performance mode (e.g., General Purpose, Max I/O) will be used for EFS?
+
+How will the throughput and I/O performance be managed and optimized?
+
+What performance metrics can we expect from the EFS setup?
+
+Are there any specific performance tuning recommendations?
+
+How will data be managed within EFS?
+
+How will application configurations be managed (ConfigMaps, Secrets)?
+
+Are there any stateful components in the application that require persistent storage?
+
+How will stateful applications be managed in the AKS cluster?
+
+How will application-level logging and monitoring be handled?
+
+Will there be any specific logging agents or monitoring tools used (e.g., Prometheus, Grafana)?
